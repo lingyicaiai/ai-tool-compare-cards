@@ -1,22 +1,22 @@
-# ai-tool-compare-cards
+# AI Tool Compare Cards
 
-## 用途
-ai-tool-compare-cards 小项目示例，可本地运行并构建。
+可交互 MVP：内置 10 个 AI 工具基础数据，支持选择两项对比并输出推荐建议。
 
-## 启动步骤
+## 功能
+- 10+ 工具数据（价格/定位/优劣）
+- 双工具对比卡片
+- 基于场景的推荐建议
+
+## 截图
+![screenshot-placeholder](./public/screenshot-placeholder.png)
+
+## 本地运行
 ```bash
 npm install
 npm run dev
-```
-
-## 构建
-```bash
 npm run build
 ```
 
-## 环境变量
-当前版本无需必填环境变量。如需扩展，可在 \.env.local 中配置。
-
-## 部署地址
-- Vercel: TODO
-- 自定义域名: TODO
+## 已部署地址
+- Vercel: 待本次发布后回填
+- 子域名: 保持原有 alias 不变
